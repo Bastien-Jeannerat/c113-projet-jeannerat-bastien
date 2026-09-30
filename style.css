@@ -6,6 +6,10 @@
     --liens : #063921;
 }
 body {
+    font-family: Georgia, sans-serif;
+    font-size: 16rem;
+    font-weight: 1.6;
+    line-height: 1.6;
     background-color: var(--fond);
     color: var(--texte );
 }
