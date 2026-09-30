@@ -1,11 +1,17 @@
 /* #FFFAFB; #32292F; #01A851; #063921 */
+:root {
+    --fond : #FFFAFB;
+    --texte : #32292F;
+    --couleursupp : #01A851;
+    --liens : #063921;
+}
 body {
-    background-color: #FFFAFB;
-    color: #32292F;
+    background-color: var(--fond);
+    color: var(--texte );
 }
 header {
-    background-color: #01A851;
+    background-color: var(--couleursupp);
 }
 a {
-    color: #063921;
+    color: var(--liens);
 }
