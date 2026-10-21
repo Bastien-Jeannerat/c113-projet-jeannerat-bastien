@@ -1,7 +1,7 @@
-/* #FFFAFB; #32292F; #01A851; #063921 */
+/* #c0ff97 / #0b090b / #01A851 / #063921 */
 :root {
-    --fond : #FFFAFB;
-    --texte : #32292F;
+    --fond :#c0ff97;
+    --texte : #0b090b;
     --couleursupp : #01A851;
     --liens : #063921;
 }
