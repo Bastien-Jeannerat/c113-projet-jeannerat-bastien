@@ -1,8 +1,8 @@
-/* #c0ff97 / #0b090b / #01A851 / #063921 */
+
 :root {
-    --fond :#c0ff97;
-    --texte : #0b090b;
-    --couleursupp : #01A851;
+    --fond :#A3D977;
+    --texte : #258548;
+    --couleursupp : #FFFFFF;
     --liens : #063921;
 }
 body {
@@ -19,4 +19,12 @@ header {
 }
 a {
     color: var(--liens);
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem
 }
