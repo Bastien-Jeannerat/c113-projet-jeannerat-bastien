@@ -15,10 +15,10 @@ body {
     color: var(--texte );
 }
 header {
-    background-color: var(--couleursupp);
+    background-color: var(--liens);
 }
 a {
-    color: var(--liens);
+    color: var(--texte);
 }
 .menu {
     list-style-type: none;
