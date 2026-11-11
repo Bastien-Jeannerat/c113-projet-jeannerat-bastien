@@ -1,4 +1,11 @@
 /* #A3D977; #258548; #FFFFFF; #063921 */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v51-latin-regular.woff2') format('woff2');
+}
 :root {
     --fond :#258548;
     --texte : #FFFFFF;
@@ -7,7 +14,7 @@
 }
 body {
     box-sizing: border-box;
-    font-family: Georgia, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.2rem;
     font-weight: 1.6;
     line-height: 1.6;
