@@ -21,8 +21,20 @@ body {
     background-color: var(--fond);
     color: var(--texte );
 }
-header {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
     background-color: var(--liens);
+}
+header img {
+    width: 100px;
+    height: auto;
 }
 a {
     color: var(--texte);
@@ -34,4 +46,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: .5rem
+}
+.menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
 }
