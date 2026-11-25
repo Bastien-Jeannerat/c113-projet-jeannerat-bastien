@@ -77,3 +77,67 @@ footer {
     margin: 0 auto;
     padding: 1rem 1.5rem;
 }
+
+
+
+
+
+.prochains-matchs h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.matchs-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carte-match {
+    background-color: var(--texte);
+    color: #222222;
+    width: 260px;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.competition {
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.date {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.heure {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.match-card h3 {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+.vs {
+    display: block;
+    color: #777777;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.lieu {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
