@@ -79,9 +79,7 @@ footer {
 }
 
 
-
-
-
+/*Les cartes de matchs sur la page d'accueil*/
 .prochains-matchs h2 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -90,24 +88,23 @@ footer {
 .matchs-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 250px;
     flex-wrap: wrap;
 }
 
 .carte-match {
     background-color: var(--texte);
-    color: #222222;
-    width: 260px;
-    padding: 25px 20px;
+    color: var(--liens);
+    width: 300px;
+    padding: 40px 20px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
 
 .competition {
-    display: inline-block;
-    background-color: #333333;
-    color: white;
+    background-color: var(--liens);
+    color: var(--texte);
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 12px;
@@ -131,7 +128,7 @@ footer {
 
 .vs {
     display: block;
-    color: #777777;
+    color: var(--liens);
     font-weight: bold;
     margin: 10px 0;
 }
@@ -139,5 +136,5 @@ footer {
 .lieu {
     margin-top: 20px;
     font-size: 14px;
-    color: #666666;
+    color: var(--liens);
 }
